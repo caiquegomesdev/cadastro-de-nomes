@@ -1,0 +1,56 @@
+body{
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    background-color: #AA1821;
+    overflow: hidden;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div#cadastro{
+    margin:auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 550px;
+    height: 200px;
+}
+div#cadastro h1{
+    text-align: center;
+    text-shadow:-1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,                    
+     1px -1px 0px #FFF,                  
+     1px 0px 0px #FFF;
+}
+
+div#cadastro input{
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+label{
+    margin-left: 5px;
+    font-weight: bold;
+    text-shadow:-1px -1px 0px #FFF, 
+    -1px 1px 0px #FFF,                    
+     1px -1px 0px #FFF,                  
+     1px 0px 0px #FFF;
+}
+
+input#cadastrar, input#listar{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    color: white;
+    text-shadow: black 10px;
+}
